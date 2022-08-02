@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+*{
+  font-family: sans-serif;
+  color: white;
+}
+
+section{
+  background-color: #ffc107;
+}
+
+.jumbotron{
+  background-image: url('img/warteg-jumbotron.jpeg');
+  font-family: 'Kanit';
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(10px) ;
+}
+
+.filter-blur{
+  background: rgba(20, 3, 255, 0.1);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#menu img{
+  height: 200px;
+  width: 253px;
+}
